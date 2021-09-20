@@ -1,0 +1,46 @@
+{
+  "name": "ts-util-functions",
+  "version": "0.0.1",
+  "description": "A library of helpful utility functions written in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "tsc --watch",
+    "start:dev": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexGaiser/ts-util-functions"
+  },
+  "bin": "",
+  "keywords": [
+    "CLI",
+    "Typescript",
+    "productivity",
+    "easy",
+    "tool",
+    "utilities"
+  ],
+  "author": "Alex Gaiser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexGaiser/ts-util-functions/issues"
+  },
+  "homepage": "https://github.com/AlexGaiser/ts-util-functions#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.6.2",
+    "@types/yargs": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "jest": "^27.0.3",
+    "prettier": "^2.3.0",
+    "ts-jest": "^27.0.2",
+    "typescript": "^4.3.2"
+  }
+}
